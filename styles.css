@@ -1,0 +1,82 @@
+/* Placeholder for header and footer */
+body {
+  padding-top: 65px;
+  padding-bottom: 50px;
+}
+
+/* Initial color setup */
+.navbar,
+.nav {
+  background-color: #6314a8;
+}
+
+/* Brand logo format */
+.navbar-brand {
+  max-width: 60vw;
+  height: auto;
+}
+
+/* Hide white navbar icon and show the grey one when hovered  */
+.navbar-toggler #grey {
+  display: none;
+}
+.navbar-toggler:hover #white {
+  display: none;
+}
+.navbar-toggler:hover #grey {
+  display: inline-block;
+}
+
+/* Format the menu behavior (normal, hover and selected) */
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+  font-size: 20px;
+  padding: 0px 8px;
+  margin: 8px 16px 8px 8px;
+  border-radius: 5px;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+  background-color: rgb(185, 185, 185);
+  color: #6314a8;
+}
+.navbar-dark .navbar-nav .nav-link.active {
+  background-color: whitesmoke;
+  color: #6314a8;
+}
+
+/* Footer icons format */
+.fa {
+  color: white;
+  padding: 8px;
+  font-size: 24px;
+  width: 36px;
+  text-align: center;
+  text-decoration: none;
+  margin: 4px 12px;
+}
+.fa:hover {
+  color: rgb(185, 185, 185);
+}
+
+.principal {
+  width: 60vw;
+  margin: 4rem auto;
+}
+
+/* test */
+h1 {
+  display: block;
+  margin: auto;
+  width: fit-content;
+  text-align: center;
+  color: black;
+}
+
+.jj {
+  background-color: red;
+}
+
+.toggle {
+  background-color: blue;
+  color: white;
+}
