@@ -60,7 +60,19 @@ body {
 
 .principal {
   width: 60vw;
-  margin: 4rem auto;
+  margin: 1rem auto;
+}
+
+.picture {
+  width: 100%;
+  margin: 2rem auto;
+  border-radius: 0.5rem;
+  filter: brightness(90%);
+}
+.simple-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 /* test */
