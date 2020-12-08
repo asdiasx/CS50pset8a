@@ -60,19 +60,31 @@ body {
 
 .principal {
   width: 60vw;
-  margin: 1rem auto;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.name {
+  display: block;
+  margin: 2rem auto 0 auto;
+  width: fit-content;
+  text-align: center;
+  color: black;
 }
 
 .picture {
-  width: 100%;
+  width: 200px;
+  height: auto;
   margin: 2rem auto;
   border-radius: 0.5rem;
-  filter: brightness(90%);
+  filter: brightness(80%) drop-shadow(0.3rem 0.3rem 1rem black);
 }
 .simple-list {
-  list-style: none;
   margin: 0;
   padding: 0;
+  width: 200px;
+  list-style: none;
 }
 
 /* test */
